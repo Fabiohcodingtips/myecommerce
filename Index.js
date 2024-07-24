@@ -16,7 +16,7 @@ if (process.env.NODE_ENV !== 'production'){
 }
 
 const port = process.env.PORT;
-const dbconnection = "mongodb+srv://admin:admin@ecommerce.h1vq9gz.mongodb.net/?retryWrites=true&w=majority&appName=ecommerce";
+const dbconnection = "mongodb+srv://admin:admin@myecommerce.rkzh3qj.mongodb.net/?retryWrites=true&w=majority&appName=myecommerce";
 // const dbconnection = process.env.MONGOURL;
 const app = express(); 
 app.use(cors());
