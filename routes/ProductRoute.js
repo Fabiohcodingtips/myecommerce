@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 router.use(express.json());
-const {createProduct} = require('../controller/ProductController');
-const {getProduct,findProduct,updateProduct,deleteProduct} = require('../controller/ProductController');
+const {createProduct} = require('../controllers/ProductController');
+const {getProduct,findProduct,updateProduct,deleteProduct} = require('../controllers/ProductController');
 
 // allow url encoding
 router.use(express.urlencoded({extended:false}));

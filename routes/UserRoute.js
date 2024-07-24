@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 router.use(express.json());
-const {createUser, findUser,deleteUser,updateUser, getUser, Login} = require('../controller/UserController');
+const {createUser, findUser,deleteUser,updateUser, getUser, Login} = require('../controllers/UserController');
 
 // allow url encoding
-router.use(express.urlencoded({extened:false}));
+router.use(express.urlencoded({extended:false}));
 
 // create new user
 router.post('/createuser',createUser)

@@ -5,8 +5,8 @@ const cors = require('cors');
 
 
 // define routes
-const userRoutes = require('./route/UserRoute');
-const productRoutes = require('./route/ProductRoute');
+const userRoutes = require('./routes/UserRoute');
+const productRoutes = require('./routes/ProductRoute');
 
 // connect to db
 if (process.env.NODE_ENV !== 'production'){
